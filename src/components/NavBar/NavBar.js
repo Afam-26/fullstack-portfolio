@@ -18,7 +18,7 @@ export default function Nav() {
     }
    
     return <>
-        <header  className="navbar navbar-expand-lg navbar-light bg-light">
+        <nav  className="navbar navbar-expand-lg navbar-light bg-light">
             <div className="container-fluid flex justify-between">
                 <HomeIcon href="/" />
                 {/* <a className="navbar-brand" href="#">Home</a> */}
@@ -41,7 +41,7 @@ export default function Nav() {
                     </ul>
                 </div>
             </div>
-        </header>
+        </nav>
 
     </>;
 }

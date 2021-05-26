@@ -3,6 +3,7 @@ import { Container } from "@material-ui/core";
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import './App.css';
 import NavBar from './components/NavBar/NavBar';
+import Main from './pages/Main/Main';
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
     <BrowserRouter>
     <Container>
       
-    <NavBar />     
+    <NavBar />   
+    <Main/>  
     </Container>
     </BrowserRouter>
     </>
