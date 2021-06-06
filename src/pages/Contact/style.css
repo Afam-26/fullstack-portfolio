@@ -1,0 +1,42 @@
+#contactMe{
+    background-color: #C3A9EF;
+}
+
+
+
+.contactMeCardContainer{
+    background-color:#7A41DC !important;
+    font-family: 'Roboto Slab', serif;
+    border-radius: .5rem;
+    box-shadow: 4px 4px #9E75E6;
+}
+
+.contactMeCard{
+    text-align: center;
+}
+
+.contactMeCard h1{
+    color: black;
+}
+
+input{
+    border-radius: .5rem;
+}
+
+textarea {
+    border-radius: .5rem;
+}
+
+.formSubmit{
+    background-color: #C3A9EF !important;
+    border-color: #C3A9EF !important;
+}
+.formSubmit:hover{
+    background-color: #5f19d8 !important;
+    border-color: #C3A9EF !important;
+}
+
+form label{
+    font-size: 1.5rem;
+    color: black;
+}
