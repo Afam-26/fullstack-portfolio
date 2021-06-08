@@ -1,55 +1,45 @@
-import React from 'react';
+import React, { useState, useEffect} from "react" ;
+import "./style.css";
+// import PortfolioContext from "../utils/PortfolioContext";
+import PortfolioData from "../../projects.json"
 
 
-function Projects() {
+function MyProject() {
+
+    const [portfolioState , setPortfolioState] = useState({
+        id:PortfolioData[0].id,
+        title:PortfolioData[0].title,
+        url:PortfolioData[0].url,
+        info:PortfolioData[0].info,
+        image:PortfolioData[0].image
+    })
+
+    function handleChange(num){
+        
+        setPortfolioState({
+            ...portfolioState,
+            id:PortfolioData[num].id,
+            title:PortfolioData[num].title,
+            url:PortfolioData[num].url,
+            info:PortfolioData[num].info,
+            image:PortfolioData[num].image
+        })
+    }
     return (
-        <section id="aboutMe" className="row min-vh-100 justify-content-center align-items-center">
-        <div id="carouselExampleDark" className="carousel carousel-dark slide" data-bs-ride="carousel">
-            <div className="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <div className= "box">
+            <div className="jumbotron">
+                <h1 className="display-4">{portfolioState.title}</h1>
+                <img src={portfolioState.image} alt={portfolioState.title}></img>
+                <hr className="my-4"/>
+                <p>{portfolioState.info}</p>
+                <p className="lead"> 
+                    <button className="btn btn-info btn-lg" onClick={()=>handleChange(0)} >Film-Frisker</button>
+                    <button className="btn btn-info btn-lg" onClick={()=>handleChange(1)}>Babar Booker</button> 
+                    <button className="btn btn-info btn-lg" onClick={()=>handleChange(2)} >Cocktail on the run</button>  
+                </p> 
             </div>
-
-            <div className="carousel-inner">
-                <div className="carousel-item active" data-bs-interval="10000">
-                    <img src="..." className="d-block w-100" alt="..."/>
-                        <div className="carousel-caption d-none d-md-block">
-                            <h5>First slide label</h5>
-                            <p>Some representative placeholder content for the first slide.</p>
-                </div>
-            </div>
-
-            <div className="carousel-item" data-bs-interval="2000">
-                        <img src="..." className="d-block w-100" alt="..."/>
-                            <div className="carousel-caption d-none d-md-block">
-                                <h5>Second slide label</h5>
-                                <p>Some representative placeholder content for the second slide.</p>
-                            </div>
-           </div>
-
-            <div className="carousel-item">
-                            <img src="..." className="d-block w-100" alt="..."/>
-                                <div className="carousel-caption d-none d-md-block">
-                                    <h5>Third slide label</h5>
-                                    <p>Some representative placeholder content for the third slide.</p>
-                                </div>
-                    </div>
-            </div>
-            
-                        <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span className="visually-hidden">Previous</span>
-                        </button>
-                        <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                            <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span className="visually-hidden">Next</span>
-                        </button>
         </div>
-        </section>           
+        );
+  }
   
-    );
-
-}
-
-export default Projects
+  export default MyProject;

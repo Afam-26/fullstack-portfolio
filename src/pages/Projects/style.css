@@ -1,0 +1,20 @@
+.box {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+p button {
+    margin: 5px;
+}
+
+img {
+    width: 50%;
+    height: 50%
+}
+
+.jumbotron {
+    background-color: #B60256 !important;
+    font-family: 'Roboto Slab', serif;
+    border-radius: 0px !important;
+}

@@ -1,6 +1,23 @@
 [
     {
         "id": 1,
+        "title": "Film-Frisker",
+        "url": "https://film-frisker.herokuapp.com/",
+        "info": "Film frisker is an application for movie lovers to sort, store, and discover their favorite and soon-to-be favorite films and shows. IT'S an MERN Application. (MONGO EXPRESS REACT NODE).All the folder structure is in MVC.This application is fully responsive as well.",
+        "image":"/assets/images/movie-friskers.gif"
+       
+    },
+
+    {
+        "id": 2,
+        "title": "Babar Booker",
+        "url": "https://babar-shop.herokuapp.com/",
+        "info": "These days, waiting in line at the barbarshop is not really an option. With Barbar Booker, you can now book your barbar for a same-day fade without leaving your home. Here is how it works. Your Barber Booker will show you which times your barber has available today. All you have to do is log in, pick a time, and show up to your cut.",
+        "image":"/assets/images/cocktail.png"
+    },
+
+    {
+        "id": 3,
         "title": "Cocktail on the run",
         "url": "https://afam-26.github.io/Cocktail-on-the-run/",
         "info": "This cocktail website is intended to assist individuals who are interested in knowing how their favorite cocktails are made.",
