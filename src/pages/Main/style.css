@@ -1,0 +1,14 @@
+#profilePic{
+    border-radius: 50%;
+    justify-content: center;
+    height: 400px;
+    width: 400px;
+}
+
+#color{
+    background-color: #f4f3ed;
+}
+
+h1{
+    font-family: 'Architects Daughter', cursive;
+}
