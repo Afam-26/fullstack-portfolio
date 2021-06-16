@@ -47,6 +47,11 @@ function AboutMe(){
                   1000,
                   "Bootstrap",
                   1000,
+                  "Active Directory",
+                  1000,
+                  "TCP/IP",
+                  1000,
+                  
                 ]}
                 loop={Infinity}
                 wrapper="p"
