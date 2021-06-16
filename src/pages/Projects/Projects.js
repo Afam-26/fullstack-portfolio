@@ -30,7 +30,8 @@ function MyProject() {
             <div className="jumbotron">
                 <h1 className="display-4">{portfolioState.title}</h1>
                 <img src={portfolioState.image} alt={portfolioState.title}></img>
-                <hr className="my-4"/>
+                <br className="my-4"/>
+                <br/>
                 <p>{portfolioState.info}</p>
                 <p className="lead"> 
                     <button className="btn btn-info btn-lg" onClick={()=>handleChange(0)} >Film-Frisker</button>

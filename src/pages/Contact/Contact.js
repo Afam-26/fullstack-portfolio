@@ -7,7 +7,7 @@ function Contact() {
         <div className="card w-75 min-vh-50 contactMeCardContainer justify-content-center align-items-center my-5">
             <div className="card-body my-5 contactMeCard w-50">
               <h1 className="card-title">Lets Talk About Your Goals</h1>
-              <form action="https://formspree.io/f/xoqpnglg" method="POST" className="d-flex flex-column">
+              <form action="https://formspree.io/f/mleowkkb" method="POST" className="d-flex flex-column">
                 <label className="d-flex flex-column">
                   Your Name:
                   <input type="text" name="name" />
