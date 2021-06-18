@@ -22,6 +22,9 @@ function AboutMe(){
                         <br/>
                         <br/>            
                     </p>
+                    <a target="_blank" href="https://drive.google.com/file/d/1N3CIurciY0EdYA4_P0X2ZevKsn-qquMa/view?usp=sharing">Resume</a>
+                    <br/>
+                    <br/> 
                     <p className="my-6 text-blueGray-100">
               My skills include:{" "}
               <Typical
