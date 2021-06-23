@@ -15,14 +15,17 @@ function AboutMe(){
                         met sales goals and lead a small team of sales associates. There, is where I gained my leadership skills and became a strong organizer and coordinator.  
                         <br/>
                         <br/>
-
                         After graduating from ACC with an Associate degree in LAN System Security and certificate in Network Admin, I joined Whole Foods Market as Sr. Service Desk Analyst.
                         There, is where I improved my leadership skills with the ability to motivate and influence others to deliver best results.
                         Proficiency at understanding, articulating and solving both complex and complicated problems  
                         <br/>
-                        <br/>            
+                        <br/>      
+                        Full Stack developer from University of Texas at Austin Full Stack Software Development Bootcamp. 
+                        Recognized as an innovative problem solver passionate about developing apps, with a focus on mobile-first design and responsive. 
+                        Proven ability to work collaboratively alongside peers to achieve company objectives. 
+                        High performer looking to leverage complex problem solving skills and the ability to work effectively with diverse teams to drive organizational growth.      
                     </p>
-                    <a target="_blank" href="https://drive.google.com/file/d/1N3CIurciY0EdYA4_P0X2ZevKsn-qquMa/view?usp=sharing">Resume</a>
+                    <a target="_blank" href="https://drive.google.com/file/d/1FB8XCEAlax-hfSoLii2f7w1gnkvn18L6/view?usp=sharing">Resume</a>
                     <br/>
                     <br/> 
                     <p className="my-6 text-blueGray-100">
