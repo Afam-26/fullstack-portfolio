@@ -25,7 +25,7 @@ function AboutMe(){
                         Proven ability to work collaboratively alongside peers to achieve company objectives. 
                         High performer looking to leverage complex problem solving skills and the ability to work effectively with diverse teams to drive organizational growth.      
                     </p>
-                    <a target="_blank" href="https://drive.google.com/file/d/1FB8XCEAlax-hfSoLii2f7w1gnkvn18L6/view?usp=sharing">Resume</a>
+                    <a target="_blank" href="https://drive.google.com/file/d/1SHvMV8Z6lI9SJePScGGsoOgPpTs5KDg1/view?usp=sharing">Resume</a>
                     <br/>
                     <br/> 
                     <p className="my-6 text-blueGray-100">
