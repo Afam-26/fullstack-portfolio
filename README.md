@@ -12,7 +12,7 @@ Email: afam262@gmail.com
 
 # Links:
 
-[Github-repo](https://github.com/Afam-26/Afam-26.github.io.git)
+[Github-repo](https://github.com/Afam-26)
 
-[Deployed-Application](https://afam-26.github.io/)
+[Deployed-Application](https://afam-portfolio.herokuapp.com/)
 
