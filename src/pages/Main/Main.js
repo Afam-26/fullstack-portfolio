@@ -11,7 +11,7 @@ export default function Main() {
                 <div className=" block py-3 px-3  text-center">
 
                     <h1 className="mt-10 sm:animate-float text-transparent bg-clip-text bg-gradient-to-t from-blueGray-400 to-blueGray-100 text-6xl font-bold custom-font text-center leading-none lg:leading-snug home-name">
-                        Afam Anekeh, Certified Full Stack Developer
+                        Afam Anekeh, Certified Full Stack Developer.
                         
                     </h1>      
                     
