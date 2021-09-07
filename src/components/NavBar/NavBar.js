@@ -14,7 +14,7 @@ function NavTabs() {
 //         }
 
   return (
-    <ul className="nav nav-tabs">
+    <ul className="nav nav-tabs justify-content-center ">
         {/* <HomeIcon href="/" /> */}
       <li className="nav-item">
         <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
