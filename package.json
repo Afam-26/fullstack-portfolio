@@ -2,7 +2,7 @@
   "name": "fullstack-portfolio",
   "version": "0.1.0",
   "engines": {
-    "node": "v18.16.0",
+    "node": "^8 || ^10",
     "npm": "9.6.6"
   },
   "private": true,
