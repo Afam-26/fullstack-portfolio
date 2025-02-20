@@ -4,7 +4,9 @@ import './style.css'
 
 function AboutMe(){
     return (
+      
         <div>
+          
             <section id="aboutMe" className="row min-vh-100 justify-content-center align-items-center">
                 <div className="card w-75 min-vh-50 aboutMeCardContainer justify-content-center align-items-center">
                     <div className="card-body my-2 aboutMeCard">
